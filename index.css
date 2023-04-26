@@ -4,9 +4,38 @@
     box-sizing: border-box;
 }
 
+.runnerz{
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+.runnerz .fa-user{
+    color: white;
+    background: gray;
+    transition: 0.5s;
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 50%;
+}
+.runnerz .fa-user:hover{
+    transform: scale(1.5);
+}
 .runnerz .navbar-brand{
     font-weight: 700;
 }
 .runnerz .nav-item{
     font-weight: 700;
+}
+.runnerz .navbar-toggler{
+    box-shadow: none;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+}
+.runnerz .navbar-toggler:hover{
+    transform: scale(1.5);
+}
+.runnerz .navbar-brand{
+    margin-right: -10px;
 }
